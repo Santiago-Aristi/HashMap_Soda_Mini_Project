@@ -33,8 +33,9 @@ public class Main {
         Soda cocaCola1 = new Soda("Cherry Coca Cola", 12, 1.99);
         Soda cocaCola2 = new Soda("Coke Zero", 12, 1.99);
         Soda cocaCola3 = new Soda("Coca Cola Original", 16, 2.75);
+        Soda cocaCola4 = new Soda("Diet Coke", 16, 2.75);
 
-        Soda[] cocaColaRow = {cocaCola1, cocaCola2, cocaCola3};
+        Soda[] cocaColaRow = {cocaCola1, cocaCola2, cocaCola3, cocaCola4};
 
         newVendingMachine.put(labelCocaCola, cocaColaRow);
 
