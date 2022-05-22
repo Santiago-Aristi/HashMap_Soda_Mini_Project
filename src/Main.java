@@ -72,7 +72,7 @@ public class Main {
         Soda dasaniWater3 = new Soda();
         Soda dasaniWater4 = new Soda("Dasani Citrus Water", 16, 2.19);
 
-        Soda[] dasaniWaterRow = {dasaniWater1, dasaniWater2, dasaniWater3};
+        Soda[] dasaniWaterRow = {dasaniWater1, dasaniWater2, dasaniWater3, dasaniWater4 };
 
         newVendingMachine.put(labelWater, dasaniWaterRow);
 
