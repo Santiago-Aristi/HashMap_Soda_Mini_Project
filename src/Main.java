@@ -48,8 +48,9 @@ public class Main {
         Soda arizonaTea1 = new Soda("Arizone Lemon Tea", 10, 0.99);
         Soda arizonaTea2 = new Soda("Arizona Peach Ice Tea", 10, 0.99);
         Soda arizonaTea3 = new Soda("Arizona Mango", 15, 1.25);
+        Soda arizonaTea4 = new Soda("Arizona Fruit Punch", 15, 1.25);
 
-        Soda[] arizonaTeaRow = {arizonaTea1, arizonaTea2, arizonaTea3};
+        Soda[] arizonaTeaRow = {arizonaTea1, arizonaTea2, arizonaTea3, arizonaTea4};
 
         newVendingMachine.put(labelArizonaTea, arizonaTeaRow);
 
