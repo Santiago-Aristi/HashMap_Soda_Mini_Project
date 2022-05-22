@@ -75,4 +75,13 @@ public class Main {
         return newVendingMachine;
     }
 
+    public static HashMap<String, Soda[]> addMonster(HashMap<String, Soda[]> vendingMachine){
+        HashMap<String, Soda[]> newVendingMachine = new HashMap<>();
+        newVendingMachine.putAll(vendingMachine);
+
+        String labelMonster = "Monster Energy Drink";
+
+        return newVendingMachine;
+    }
+
 }
