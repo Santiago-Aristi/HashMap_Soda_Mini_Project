@@ -81,6 +81,14 @@ public class Main {
 
         String labelMonster = "Monster Energy Drink";
 
+        Soda monsterDrink1 = new Soda("Monster Original", 16, 3.50);
+        Soda monsterDrink2 = new Soda("Monster Coconut", 16, 3.50);
+        Soda monsterDrink3 = new Soda("Monster Citrus", 16, 3.50);
+
+        Soda[] monsterDrinkRow = {monsterDrink1, monsterDrink2, monsterDrink3};
+
+        newVendingMachine.put(labelMonster, monsterDrinkRow);
+
         return newVendingMachine;
     }
 
