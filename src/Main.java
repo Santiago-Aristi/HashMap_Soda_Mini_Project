@@ -11,7 +11,10 @@ public class Main {
 
         HashMap<String, Soda[]> newVendingMachineWithArizonaTea = addArizonaTea(vendingMachine);
         HashMap<String, Soda[]> newVendingMachineWithCocaCola = addCocaCola(newVendingMachineWithArizonaTea);
-        HashMap<String, Soda[]> newVendingMachineWithAllSodas = addDasaniWater(newVendingMachineWithCocaCola);
+        HashMap<String, Soda[]> newVendingMachineWithDasani = addDasaniWater(newVendingMachineWithCocaCola);
+        HashMap<String, Soda[]> newVendingMachineWithAllSodas = addMonster(newVendingMachineWithDasani);
+
+
 
         for (Map.Entry<String, Soda[]> row : newVendingMachineWithAllSodas.entrySet()) {
             for (Soda soda : row.getValue()) {
@@ -76,6 +79,7 @@ public class Main {
     }
 
     public static HashMap<String, Soda[]> addMonster(HashMap<String, Soda[]> vendingMachine){
+
         HashMap<String, Soda[]> newVendingMachine = new HashMap<>();
         newVendingMachine.putAll(vendingMachine);
 
