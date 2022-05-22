@@ -87,7 +87,7 @@ public class Main {
 
         Soda monsterDrink1 = new Soda("Monster Original", 16, 3.50);
         Soda monsterDrink2 = new Soda("Monster Coconut", 16, 3.50);
-        Soda monsterDrink3 = new Soda("Monster Citrus", 16, 3.50);
+        Soda monsterDrink3 = new Soda("Monster Citrus", 18, 3.75);
 
         Soda[] monsterDrinkRow = {monsterDrink1, monsterDrink2, monsterDrink3};
 
